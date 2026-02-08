@@ -5,7 +5,6 @@ import argparse
 from impacket.krb5 import constants
 from impacket.krb5.types import Principal
 from impacket.krb5.kerberosv5 import getKerberosTGT
-from impacket.krb5.asn1 import AS_REP
 from impacket.krb5.kerberosv5 import KerberosError
 from pyasn1.codec.der import decoder
 
