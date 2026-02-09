@@ -6,7 +6,7 @@ from impacket.krb5 import constants
 from impacket.krb5.types import Principal
 from impacket.krb5.kerberosv5 import getKerberosTGT
 from impacket.krb5.kerberosv5 import KerberosError
-from pyasn1.codec.der import decoder
+#from pyasn1.codec.der import decoder
 
 def login(username, domain, dc_ip, password='', nthash='', aesKey=None):
     lmhash = 'aad3b435b51404eeaad3b435b51404ee'
